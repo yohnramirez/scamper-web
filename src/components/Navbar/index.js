@@ -1,5 +1,6 @@
 import React  from 'react'
-import { FaBars } from 'react-icons/fa'
+import Logo from '../../images/scamper-logo.png';
+import { FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { 
     Nav, 
@@ -10,7 +11,8 @@ import {
     NavItems, 
     NavLinks,
     NavBtn,
-    NavBtnLink
+    NavBtnLink,
+    NavLogoImg
 } from './NavbarElements';
 
 
@@ -21,7 +23,9 @@ const Navbar = ({toggle}) => {
     <IconContext.Provider value={{color: '#fff'}}/>
         <Nav>
             <NavbarContainer>
-                <NavLogo to="/">scamper</NavLogo>
+                <NavLogo to="/">
+                    <NavLogoImg src={Logo} />    
+                </NavLogo>
                 <MobileIcon onClick={toggle}>
                     <FaBars />
                 </MobileIcon>

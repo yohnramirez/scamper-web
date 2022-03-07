@@ -32,12 +32,12 @@ export const NavLogo = styled(LinkR)`
     color: #fff;
     justify-self: flex-start;
     cursor: pointer;
-    font-size: 1.5rem;
     display: flex;
     align-items: center;
     margin-left: 24px;
     font-weight: bold;
     text-decoration: none;
+    background-color: #B8E4F0;
 `
 export const MobileIcon = styled.div`
     display: none;
@@ -109,4 +109,9 @@ export const NavBtnLink = styled(LinkR)`
         background: #fff;
         color: #010606;
     }
+`
+
+export const NavLogoImg = styled.img`
+    width: 130px;
+    height: 130px;
 `
