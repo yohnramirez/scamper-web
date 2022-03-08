@@ -36,7 +36,7 @@ export const NavLogo = styled(LinkS)`
     margin-left: 24px;
     font-weight: bold;
     text-decoration: none;
-    background-color: #B8E4F0;
+    //background-color: #B8E4F0;
 `
 export const MobileIcon = styled.div`
     display: none;

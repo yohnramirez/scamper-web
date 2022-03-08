@@ -28,8 +28,9 @@ const HeroSection = () => {
         <HeroContent>
             <Column1>
                 <HeroH1>Software Development</HeroH1>
-                <HeroP>adsasdsasdsamsmmsmsms smsmsmsm smsmsms
-                    sdasdsa dsdsdsd dsdas.
+                <HeroP>
+                    We create quality software for your business 
+                    offering you the best solutions.
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button to="services" 

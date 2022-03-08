@@ -21,21 +21,21 @@ const Services = () => {
                     <ServicesIcon src={Icon1}/>
                     <ServicesH2>Mobile Web</ServicesH2>
                     <ServicesP>
-                        descripcion
+                      Mobile applications to manage your business
                     </ServicesP>
               </ServicesCard>
               <ServicesCard>
                     <ServicesIcon src={Icon2}/>
                     <ServicesH2>Static WebSites</ServicesH2>
                     <ServicesP>
-                        descripcion
+                      Informative web pages to publicize your business
                     </ServicesP>
               </ServicesCard>
               <ServicesCard>
                     <ServicesIcon src={Icon3}/>
                     <ServicesH2>Single Page Apps</ServicesH2>
                     <ServicesP>
-                      descripcion
+                      Dynamic web applications made with a single page
                     </ServicesP>
               </ServicesCard>
           </ServicesWrapper>
