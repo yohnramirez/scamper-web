@@ -113,4 +113,6 @@ export const NavBtnLink = styled(LinkS)`
 export const NavLogoImg = styled.img`
     width: 130px;
     height: 130px;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
 `
